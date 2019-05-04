@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>使用选择器插入图象文件</title>
+  <style>
+   h1.new::after{
+     content: url(news.jpg);
+     margin-left: 10px;
+   }
+  </style>
+</head>
+<body>
+  <h1 class="new">标题A</h1>
+  <h1 class="new">标题B</h1>
+  <h1>标题C</h1>
+  <h1>标题D</h1>
+  <h1>标题E</h1>
+</body>
+</html>
