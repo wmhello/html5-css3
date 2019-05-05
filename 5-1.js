@@ -4,7 +4,7 @@ function draw(id) {
     return false
   }
   var context = canvas.getContext('2d')
-  context.fillStyle = rgba(224,224,128, 0.5);
+  context.fillStyle = '#ee8';
   context.fillRect(0,0,400,300)
   context.fillStyle = 'red'
   context.strokeStyle = 'blue'
